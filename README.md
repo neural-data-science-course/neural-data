@@ -38,8 +38,8 @@ See https://github.com/neural-data-science-course/population-methods for an exam
    - [ ] Update the `requirements.txt` file with python packages necessary for this module.
 ----
 
-# Module [number]: [module name] 
-Welcome to module [number] of the [Neural Data Science Course]().
+# Module 1: Neural Data
+Welcome to module 1 of the [Neural Data Science Course]().
 [Module introduction]
 
 ## Prerequisites
@@ -54,10 +54,11 @@ Follow these instructions on [how to install anaconda](https://docs.anaconda.com
 
 ### Create a conda environment**
 Create a conda virtual environment with the name you prefer, then activate it to work within it.
+For this module, you will need the CaImAn tool, that is easier to install when creating the environment. 
 Open a terminal, or open 'Anaconda Prompt' from Anaconda Navigator, in there run:
 
 ```
-conda create --name env_name
+conda create -n neural_data -c conda-forge caiman
 conda activate env_name
 ```
 
@@ -85,14 +86,15 @@ jupyter lab
 You're all set to go through the lessons.
 
 ## Module overview
-* 01. [lesson name] - [XX] minutes
-* 02. [lesson name] - [XX] minutes
+* 01. LFP - [XX] minutes
+* 02. Spikes - [XX] minutes
+* 03. Calcium Imaging - [XX] minutes
 
 
 ## Contributors
 This module was created by:  
-* contributor 1  
-* contributor 2  
+* Davide Spalla  
+* Melisa Maidana Capitan  
 
 ## License
 
