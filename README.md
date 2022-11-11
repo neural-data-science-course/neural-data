@@ -1,7 +1,7 @@
 # Module 1: Neural Data
 
-This is module one of the [Neual data science course](https://neural-data-science-course.github.io/). In this module we'll introduce some of the most important type of data that neuroscientists encounter in their research activity.
-You will learn how to handle, preprocess and visualize these data, to make them ready for downstream analysis.
+This is module one of the [Neural data science course](https://neural-data-science-course.github.io/). In this module we'll introduce some of the most important type of data that neuroscientists encounter in their research activity.
+You will learn how to handle, pre-process and visualize these data, to make them ready for downstream analysis.
 
 ## Lessons
 01. LFP - 60 minutes
