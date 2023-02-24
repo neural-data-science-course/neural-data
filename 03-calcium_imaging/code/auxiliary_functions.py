@@ -16,7 +16,7 @@ from matplotlib.patches import Rectangle
 from random import randrange
 
 
-def plot_FOV(FOV_file=None, ROI_file=None, output_file=None):
+def plot_FOV(FOV_file=None, ROI_file=None):
 
     FOV = cm.load(FOV_file)
     ROI = cm.load(ROI_file)
@@ -38,7 +38,6 @@ def plot_FOV(FOV_file=None, ROI_file=None, output_file=None):
 
     figure_ax2.imshow(ROI[0, :, :], cmap='gray')
 
-    figure.savefig(output_file)
 
     return
 
