@@ -19,14 +19,20 @@ To use material of this module profitably, you will need:
 If you don't have them already installed, install Pyhton and Anaconda on your machine.
 Follow these instructions on [how to install anaconda](https://docs.anaconda.com/anaconda/install/)
 
-### Create a conda environment**
+### Intall Mamba on your machine
+CaImAn, a library used in this module, is more easily installed with (mamba)[https://mamba.readthedocs.io/en/latest/index.html
+].
+To install mamba on your machine, download the [mambaforge installer](https://github.com/conda-forge/miniforge#mambaforge) and run it.  
+You can also download mamba from conda following this instructions: https://mamba.readthedocs.io/en/latest/installation.html (not recommended, often fails to build the environment)
+
+### Create a virtual environment**
 Create a conda virtual environment with the name you prefer, then activate it to work within it.
 For this module, you will need the CaImAn tool, that is easier to install when creating the environment. 
 Open a terminal, or open 'Anaconda Prompt' from Anaconda Navigator, in there run:
 
 ```
-conda create -n neural_data -c conda-forge caiman
-conda activate env_name
+mamba create -n neural_data -c conda-forge caiman
+mamba activate env_name
 ```
 
 
