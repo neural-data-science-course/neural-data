@@ -15,8 +15,8 @@ To use material of this module profitably, you will need:
 
 ## Setup
 
-### Install Pyhton and anaconda on your machine 
-If you don't have them already installed, install Pyhton and Anaconda on your machine.
+### Install Python and anaconda on your machine 
+If you don't have them already installed, install Python and Anaconda on your machine.
 Follow these instructions on [how to install anaconda](https://docs.anaconda.com/anaconda/install/)
 
 ### Intall Mamba on your machine
