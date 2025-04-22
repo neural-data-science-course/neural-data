@@ -1,7 +1,7 @@
 ##  How to install caiman on Window 11 (2025 version)
 
 This is my experience installing Caiman on a Windows 11 installation. I start with a fully updated installation, fairly plain vanilla (I don't use Windows much so I don't have much installed). 
-It's quite a lengthy process but 
+It's quite a lengthy process but it did work for me.
 
 Please follow all of these steps carefully and in the order in which they are listed in here
 
@@ -33,11 +33,17 @@ The reason for this is that we installed Visual Studio 2022 instead of Visual St
 - As mentioned in the instructions, do 
 ```
 conda activate caiman
+```
+
+- Add other packages that you will need to the environment, for example `conda install jupyterlab` or `conda install notebook`. For the workshop, you will also need `conda install seaborn`.
+
+- Install Caiman with:
+```
 pip install .
 ```
 The last step assumes that you are in the CaImAn folder. This will take a while, if all goes well it should give no error. If you get trouble, chances are it will be at this step. Get out of the CaImAn folder as soon as this is done (commands may give error if run from there). 
 
-- Add other package that you will need to the environment, for example `conda install jupyterlab` or `conda install notebook`. 
+
 
 - You can install and run the demos following Step 2 and 3 in the Caiman instructions if you wish.
 
